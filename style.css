@@ -1,5 +1,5 @@
 h2 {
-    color: blue;
+    color: rgb(199, 206, 78);
   }
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
@@ -102,29 +102,7 @@ section {
 #proyects ul li a:hover {
     text-decoration: underline;
 }
-#contact form {
-    margin: 0 auto;
-    width: 500px;
-}
 
-#contact form input,
-#contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-}
-
-#contact form textarea {
-    height: 100px;
-}
-
-#contact form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
 .menu-fijo {
     position: fixed;
     top: 0;
@@ -151,3 +129,27 @@ section {
         opacity: 1;
     }
 }
+#contact {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #contact li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
